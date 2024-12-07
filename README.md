@@ -1,6 +1,7 @@
 <div align="center">
 
 <h1>VP-MEL: Visual Prompts Guided Multimodal Entity Linking</h1>
+</div>
 
 <br>
 
