@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-<img src='VPMELmain.jpg' width='90%'>
+<img src='vpmel_main.jpg' width='90%'>
 </div>
 
 # VP-MEL
