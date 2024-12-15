@@ -16,7 +16,7 @@ os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-model_path = '/home/pg/MIMIC/clip-vit-base-patch32'
+model_path = ''
 
 
 def _load_json_file(filepath):
@@ -66,7 +66,7 @@ class DataModuleForMIMIC(pl.LightningDataModule):
                 input_dict['answer'] = self.qid2id[sample_dict['answer']]
             input_data.append(input_dict)
         return input_data
-        # 把EntityKB中inputdata里的实体拆解成input字典，['input_ids','attention_mask',"img_list","sample_type = 1","answer"]
+        # ['input_ids','attention_mask',"img_list","sample_type = 1","answer"]
 
     def setup_dataset_for_mention(self, data):
         # prepare mention information
@@ -89,7 +89,7 @@ class DataModuleForMIMIC(pl.LightningDataModule):
             input_data.append(input_dict)
             # print('input_dic',input_dict)
         return input_data
-        #把inputdata里的实体拆解成input字典，['input_ids','attention_mask',"img_list","sample_type = 1","answer"]
+        #['input_ids','attention_mask',"img_list","sample_type = 1","answer"]
 
 
     def choose_image(self, sample_type, img_list, is_eval=False):
