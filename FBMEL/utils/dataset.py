@@ -16,7 +16,7 @@ os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-model_path = '/home/pg/MIMIC/clip-vit-base-patch32'
+model_path = ''
 
 
 def _load_json_file(filepath):
