@@ -38,7 +38,7 @@ The above figure shows an example from VPWiki and WikiDiverse. The red box in th
 <img src="vpwikiet.png" width="25%">
 </div>
 
-We provide some sample data [here](dataset/VPWiki/test.json).  The complete dataset will be released in subsequent updates.
+We provide some sample data [here](dataset/VPWiki/test.json), and some of the corresponding images can be found in the [folder](dataset/VPWiki/test_img(Example)/).  The complete dataset will be released in subsequent updates.
 
 # Usage
 The complete code will be updated in the **FBMEL/** folder. This part will be completed after the code update.
