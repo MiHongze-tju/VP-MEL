@@ -51,7 +51,7 @@ The complete code will be updated in the **FBMEL/** folder. This part will be co
 ### Step 4: Start the training
 
 # Citation
-If you find RiVEG useful in your research, please consider citing:
+If you find this work useful in your research, please consider citing:
 
 ```
 @article{mi2024vpmelvisualpromptsguided,
