@@ -50,14 +50,5 @@ The complete code will be updated in the **FBMEL/** folder. This part will be co
 
 ### Step 4: Start the training
 
-# Citation
-If you find this work useful in your research, please consider citing:
 
-```
-@article{mi2024vpmelvisualpromptsguided,
-  title={VP-MEL: Visual Prompts Guided Multimodal Entity Linking},
-  author={Hongze Mi and Jinyuan Li and Xuying Zhang and Haoran Cheng and Jiahao Wang and Di Sun and Gang Pan},
-  journal={arXiv preprint arXiv:2412.06720},
-  year={2024}
-}
 
