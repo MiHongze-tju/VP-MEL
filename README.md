@@ -23,7 +23,7 @@
 <br>
 
 <div align="center">
-<img src="vpwikidata.jpg" width="60%">
+<img src="vpwikidata.jpg" width="50%">
 </div>
 
 Our VPWiki dataset is built on two benchmark MEL datasets [WikiDiverse](https://aclanthology.org/2022.acl-long.328) and [WikiMEL](https://doi.org/10.1145/3477495.3531867):
@@ -38,7 +38,7 @@ The above figure shows an example from VPWiki and WikiDiverse. The red box in th
 <img src="vpwikiet.png" width="25%">
 </div>
 
-We provide some sample data [here](dataset/VPWiki/test.json). The complete dataset will be released in subsequent updates.
+We provide some sample data [here](dataset/VPWiki/test.json).  The complete dataset will be released in subsequent updates.
 
 # Usage
 The complete code will be updated in the **FBMEL/** folder. This part will be completed after the code update.
