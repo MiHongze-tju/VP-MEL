@@ -22,7 +22,18 @@
 <br>
 
 <div align="center">
-<img src='vpwikiet.png' width='30%'>
+<img src="vpwikidata.jpg" width="60%">
 </div>
 
-Our VPWiki dataset is built on two benchmark MEL datasets [WikiDiverse](https://aclanthology.org/2022.acl-long.328) and [WikiMEL](https://doi.org/10.1145/3477495.3531867)
+Our VPWiki dataset is built on two benchmark MEL datasets [WikiDiverse](https://aclanthology.org/2022.acl-long.328) and [WikiMEL](https://doi.org/10.1145/3477495.3531867):
+
+The above figure shows an example from VPWiki and WikiDiverse. The red box in the left image represents the visual prompt annotated for the VP-MEL task. The red text in the right image shows the annotated mention words.
+
+</div>
+
+<br>
+
+<div align="center">
+<img src="vpwikiet.png" width="25%">
+</div>
+
