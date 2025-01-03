@@ -14,6 +14,7 @@
 # Todo List
 
  - [ ] Release datasets and training and inference scripts.
+ - [ ] Release complete code for the FBMEL model.
  - [ ] Release new VPWiki dataset.
 
 # VPWiki Dataset
@@ -40,6 +41,14 @@ The above figure shows an example from VPWiki and WikiDiverse. The red box in th
 We provide some sample data [here](dataset/VPWiki/test.json). The complete dataset will be released in subsequent updates.
 
 # Usage
+The complete code will be updated in the **FBMEL/** folder. This part will be completed after the code update.
+### Step 1: Set up the environment
+
+### Step 2: Download the data
+
+### Step 3: Instruction fine-tune the VLM
+
+### Step 4: Start the training
 
 # Citation
 If you find RiVEG useful in your research, please consider citing:
