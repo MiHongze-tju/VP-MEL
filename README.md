@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-<img src='vpmel_main.jpg' width='90%'>
+<img src='vpmel_main.jpg' width='70%'>
 </div>
 
 # VP-MEL
@@ -36,4 +36,8 @@ The above figure shows an example from VPWiki and WikiDiverse. The red box in th
 <div align="center">
 <img src="vpwikiet.png" width="25%">
 </div>
+
+We provide some sample data [here](dataset/VPWiki/test.json). The complete dataset will be released in subsequent updates.
+
+# Usage
 
