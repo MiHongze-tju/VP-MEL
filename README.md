@@ -41,3 +41,14 @@ We provide some sample data [here](dataset/VPWiki/test.json). The complete datas
 
 # Usage
 
+# Citation
+If you find RiVEG useful in your research, please consider citing:
+
+```
+@article{mi2024vpmelvisualpromptsguided,
+  title={VP-MEL: Visual Prompts Guided Multimodal Entity Linking},
+  author={Hongze Mi and Jinyuan Li and Xuying Zhang and Haoran Cheng and Jiahao Wang and Di Sun and Gang Pan},
+  journal={arXiv preprint arXiv:2412.06720},
+  year={2024}
+}
+
