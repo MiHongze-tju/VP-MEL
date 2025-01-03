@@ -11,4 +11,17 @@
 
 # VP-MEL
 
-The code and dataset will be continuously updated...
+# Todo List
+
+ - [ ] Release datasets and training and inference scripts.
+ - [ ] Release new VPWiki dataset.
+
+# VPWiki Dataset
+</div>
+
+<br>
+
+<div align="center">
+<img src='' width='60%'>
+</div>
+
