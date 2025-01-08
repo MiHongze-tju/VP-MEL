@@ -14,7 +14,7 @@
 # Todo List⏳
 
  - [ ] Release datasets and training and inference scripts.
- - [ ] Release complete code for the FBMEL model.
+ - [x] Release complete code for the FBMEL model.
  - [ ] Release new VPWiki dataset.
 
 # VPWiki Dataset
@@ -41,10 +41,22 @@ The above figure shows an example from VPWiki and WikiDiverse. The red box in th
 We provide some sample data [here](dataset/VPWiki/test.json), and some of the corresponding images can be found in the [folder](dataset/VPWiki/test_img(Example)/).  The complete dataset will be released in subsequent updates.
 
 # Usage
-The complete code will be updated in the **FBMEL/** folder. This part will be completed after the code update.
+
 ### Step 1: Set up the environment
 
+```bash
+conda create -n vpmel 
+conda activate vpmel
+```
+
+Please install the specified versions of Python libraries according to the [requirements.txt](requirements.txt) file.
+
+Note that the versions of PyTorch, Transformers, and PyTorch Lightning may have a slight impact on the results.
+
 ### Step 2: Download the data
+You may download WikiMEL and RichpediaMEL from https://github.com/seukgcode/MELBench and WikiDiverse from https://github.com/wangxw5/wikiDiverse.
+
+For our VPWiki dataset, we provide test samples for reference in the [folder](dataset/VPWiki/), and the complete dataset will be released later.
 
 ### Step 3: Instruction fine-tune the VLM
 
