@@ -68,6 +68,8 @@ Please refer to the [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl/tree/main), 
 We provide a prompt [template](FBMEL/owl/detective.py); however, you can adjust it according to your needs.
 
 ### Step 4: Start the training
+Please update the [config](config/) file according to your file paths.
+
 Now you can execute `bash run.sh <gpu_id> <dataset_name>` to begin the training.
 ```bash
 bash run.sh 0 vpwiki
