@@ -23,7 +23,7 @@
 <br>
 
 <div align="center">
-<img src="vpwikidata.jpg" width="50%">
+<img src="dataexample.jpg" width="50%">
 </div>
 
 Our VPWiki dataset is built on two benchmark MEL datasets [WikiDiverse](https://aclanthology.org/2022.acl-long.328) and [WikiMEL](https://doi.org/10.1145/3477495.3531867):
