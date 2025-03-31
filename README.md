@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-<img src='vpmel_main.jpg' width='70%'>
+<img src='head.jpg' width='70%'>
 </div>
 
 # VP-MEL
@@ -23,7 +23,7 @@
 <br>
 
 <div align="center">
-<img src="vpwikidata.jpg" width="50%">
+<img src="dataexample.jpg" width="50%">
 </div>
 
 Our VPWiki dataset is built on two benchmark MEL datasets [WikiDiverse](https://aclanthology.org/2022.acl-long.328) and [WikiMEL](https://doi.org/10.1145/3477495.3531867):
@@ -58,9 +58,40 @@ You may download WikiMEL and RichpediaMEL from https://github.com/seukgcode/MELB
 
 For our VPWiki dataset, we provide test samples for reference in the [folder](dataset/VPWiki/), and the complete dataset will be released later.
 
+Please name the data folders according to their respective names and place them in the **dataset/** directory.
+
 ### Step 3: Instruction fine-tune the VLM
+Instruction fine-tuning of VLMs can involve selecting different models based on specific requirements. In this work, we choose [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl/tree/main).
+
+Please refer to the [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl/tree/main), download the complete model, and place it in **FBMEL/owl/**. The inference results of the VLM are incorporated as additional textual information in the training process.
+
+We provide a prompt [template](FBMEL/owl/detective.py); however, you can adjust it according to your needs.
 
 ### Step 4: Start the training
+Please update the [config](config/) file according to your file paths.
 
+Now you can execute `bash run.sh <gpu_id> <dataset_name>` to begin the training.
+```bash
+bash run.sh 0 vpwiki
+```
 
+## Code Structure
+The code is organized as follows:
+```text
+├── FBMEL
+│   ├── main.py
+│   ├── model
+│   │   ├── lightning.py
+│   │   └── modeling.py
+│   ├── utils
+│   │   ├── dataset.py
+│   │   └── functions.py
+│   └── owl
+│       └── detective.py
+├── config
+│   └── vpwiki.yaml
+├── readme.md
+├── requirements.txt
+└── run.sh
+```
 
