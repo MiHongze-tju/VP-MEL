@@ -78,7 +78,7 @@ bash run.sh 0 vpwiki
 ## Code Structure
 The code is organized as follows:
 ```text
-├── FBMEL
+├── IIER
 │   ├── main.py
 │   ├── model
 │   │   ├── lightning.py
