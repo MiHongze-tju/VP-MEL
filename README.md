@@ -49,6 +49,17 @@ The above figure shows an example from VPWiki and WikiDiverse. The red box in th
 
 We provide some sample data [here](dataset/VPWiki/test.json), and some of the corresponding images can be found in the [folder](dataset/VPWiki/test_img(Example)/).  The complete dataset will be released in subsequent updates.
 
+# Baseline Prompts
+
+Below are the standardized prompt templates employed in our benchmark evaluations of Vision-Language Models (VLMs):
+</div>
+
+<br>
+
+<div align="center">
+<img src="prompt.png" width="50%">
+</div>
+
 # Usage
 
 ### Step 1: Set up the environment
