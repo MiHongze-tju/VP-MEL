@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-<img src='head.jpg' width='70%'>
+<img src='head.jpg' width='60%'>
 </div>
 
 # VP-MEL
@@ -23,10 +23,19 @@
 <br>
 
 <div align="center">
-<img src="dataexample.jpg" width="50%">
+<img src="dataexample.jpg" width="40%">
 </div>
 
 Our VPWiki dataset is built on two benchmark MEL datasets [WikiDiverse](https://aclanthology.org/2022.acl-long.328) and [WikiMEL](https://doi.org/10.1145/3477495.3531867):
+
+The data annotation flowchart is shown below：
+</div>
+
+<br>
+
+<div align="center">
+<img src="data_annotation.jpg" width="65%">
+</div>
 
 The above figure shows an example from VPWiki and WikiDiverse. The red box in the left image represents the visual prompt annotated for the VP-MEL task. The red text in the right image shows the annotated mention words.
 
